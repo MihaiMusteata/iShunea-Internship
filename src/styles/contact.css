@@ -1,0 +1,63 @@
+.contact-footer h1 {
+    font-family: Onest;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.contact-footer p {
+    opacity: 0.5;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.visiting-card {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: left;
+    position: relative;
+    width:80%;
+}
+.visiting-card img {
+    width: 100%;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.visiting-card-content {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.visiting-card-content h1 {
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.visiting-card-content p , .visiting-card-content span {
+font-family: Onest;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.visiting-card-content span {
+    background: linear-gradient(259.51deg, #FBDF06 -2.01%, #FEB700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,11 @@
+$theme-colors: (
+  'info': tomato,
+  'danger': teal
+);
+.navbar-transparent {
+  background-color: transparent;
+}
+.navbar-text{
+  color:red;
+}
+@import '~bootstrap/scss/bootstrap';

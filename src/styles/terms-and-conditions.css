@@ -1,0 +1,48 @@
+.terms-and-conditions h1 {
+    font-family: OnestMedium;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.terms-and-conditions h2 {
+    padding: 40px, 0px, 16px, 0px;
+    font-family: OnestMedium;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.terms-and-conditions h4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.terms-and-conditions {
+    color: black;
+}
+
+.terms-and-conditions p {
+    font-family: Onest;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #8AA2A9;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.terms-and-conditions-content {
+    width: 800px;
+    margin: 0 auto;
+}

@@ -1,0 +1,155 @@
+.modal-box-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 480px;
+}
+
+
+.attach-file-label {
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 96px;
+    border-style: dashed;
+    border: 1px dashed #8aa2a944;
+    background: linear-gradient(0deg, rgba(138, 162, 169, 0.1), rgba(138, 162, 169, 0.1)),
+        linear-gradient(0deg, #FAFAFA, #FAFAFA);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.check-terms-label {
+    padding: 15px 0 30px 0;
+    font-family: Onest;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+
+.check-terms {
+    border: 1.5px solid #8aa2a9b9;
+    border-radius: 5px;
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+input[type="checkbox"] {
+    /* appearance: none; */
+    /* -webkit-appearance: none; */
+    /* -moz-appearance: none; */
+    outline: none;
+    border: none;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+::-webkit-file-upload-button {
+    display: none;
+}
+
+
+.modal-box-content h1 {
+    font-family: OnestMedium;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.modal-box-content p {
+    opacity: 0.5;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.modal-lg,
+.modal-xl {
+    --bs-modal-width: 1000px;
+}
+
+.modal-input-text,
+.modal-select-list {
+    width: 100%;
+    border: 1.5px solid #8AA2A926;
+    border-radius: 20px;
+    color: black;
+    height: 56px;
+    font-family: Onest;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.modal-input-text::placeholder,
+.modal-select-list {
+    padding-left: 15px;
+    font-family: Onest;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.attach-file {
+    width: 100%;
+    position: relative;
+}
+
+.attach-file-icon {
+    position: absolute;
+    left: 10px;
+    top: 45%;
+    width: 28px;
+    height: 32px;
+}
+
+.attach-file-text {
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    top: 45%;
+}
+
+.attach-file-text h1 {
+    margin: 0;
+    font-family: OnestMedium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.attach-file-text p {
+    font-family: Onest;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.5;
+
+}

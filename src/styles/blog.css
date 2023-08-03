@@ -1,0 +1,253 @@
+.box-cont {
+    display: flex;
+    flex-direction: row;
+    place-content: stretch center;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    place-content: stretch flex-start;
+    flex: 1 1 0%;
+    width: 0px;
+    gap: 0px;
+}
+
+.blog-type-1,
+.blog-type-2,
+.blog-type-3,
+.blog-type-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.blog-type-1 {
+    max-height: 250px;
+}
+
+
+.blog-type-3 {
+    max-height: 300px;
+}
+
+.blog-type-4 {
+    max-height: 200px;
+}
+
+.blog-type-1:hover,
+.blog-type-2:hover,
+.blog-type-3:hover,
+.blog-type-4:hover {
+    max-height: 1000px;
+    filter: brightness(100%);
+}
+
+.blog-image {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    filter: brightness(80%);
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+.blog-image:hover {
+    filter: brightness(100%);
+}
+
+.blog-header {
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.blog-header h1 {
+    font-family: OnestMedium;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.blog-header span {
+    font-family: OnestBold;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-header span {
+        display: none;
+    }
+}
+
+
+.active,
+.dropdown-sort {
+    margin-left: 10px;
+    font-family: Onest;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    width: auto;
+    cursor: pointer;
+    background: linear-gradient(90deg, #FEB700 0%, #FBDF06 100%);
+    border-radius: 100px;
+    border: rgba(255, 255, 255, 0);
+}
+
+.dropdown-sort {
+    background: white;
+    appearance: none;
+    border: 1px solid #8aa2a96b
+}
+
+.button {
+    margin-left: 10px;
+    font-family: Onest;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    width: auto;
+    cursor: pointer;
+    background: white;
+    border-radius: 100px;
+    opacity: 0.4;
+    border: 1px solid #8aa2a9
+}
+
+.blog-subscribe {
+    border-radius: 20px;
+    width: auto;
+    padding: 20px 0 20px 0;
+    font-family: Onest;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1.5px solid #8AA2A926
+}
+
+.blog-subscribe::placeholder {
+    opacity: 0.4;
+}
+
+.blog-footer {
+    font-family: OnestMedium;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.article {
+    padding-top: 100px;
+    width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.article h1 {
+    font-family: OnestMedium;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px auto 0px auto;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.article span {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.5;
+}
+
+.article-tag {
+    border-radius: 20px;
+    font-family: OnestMedium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8AA2A9;
+    justify-content: center;
+    border: 1.5px solid #8AA2A9;
+    padding: 1px 0 1px 0;
+    width: 113px;
+}
+
+.article-content p {
+    font-family: Onest;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8AA2A9;
+
+}
+
+.article-content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.article-content h2 {
+    padding: 40px 0px 16px 0px;
+    font-family: OnestMedium;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.article-content h4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.react-multi-carousel-item {
+    width: 600px;
+}
