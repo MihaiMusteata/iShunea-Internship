@@ -32,21 +32,21 @@ function App() {
         <Router>
           {isSpecificPath(transpaerntNavBar) ? <NavBar /> : <NavBarWhite />}
           <Routes>
-            <Route path="/iShunea-React/" Component={Home} />
-            <Route path="/iShunea-React/home" Component={Home} />
-            <Route path="/iShunea-React/about" Component={About} />
-            <Route path="/iShunea-React/careers" Component={Careers} />
-            <Route path="/iShunea-React/job" Component={Job} />
-            <Route path="/iShunea-React/services" Component={Services} />
-            <Route path="/iShunea-React/blog" Component={Blog} />
-            <Route path="/iShunea-React/article" Component={Article} />
-            <Route path="/iShunea-React/work" Component={Work} />
-            <Route path="/iShunea-React/service" Component={Service} />
-            <Route path="/iShunea-React/works" Component={Works} />
-            <Route path="/iShunea-React/contact" Component={Contact} />
-            <Route path='/iShunea-React/terms' Component={TermsAndConditions} />
+            <Route path="/" Component={Home} />
+            <Route path="/home" Component={Home} />
+            <Route path="/about" Component={About} />
+            <Route path="/careers" Component={Careers} />
+            <Route path="/job" Component={Job} />
+            <Route path="/services" Component={Services} />
+            <Route path="/blog" Component={Blog} />
+            <Route path="/article" Component={Article} />
+            <Route path="/work" Component={Work} />
+            <Route path="/service" Component={Service} />
+            <Route path="/works" Component={Works} />
+            <Route path="/contact" Component={Contact} />
+            <Route path='/terms' Component={TermsAndConditions} />
             <Route path="*" Component={NotFound} />
-            <Route path='/iShunea-React/modal' Component={ModalTesting} />
+            <Route path='/modal' Component={ModalTesting} />
           </Routes>
         </Router>
         <Footer />
